@@ -46,27 +46,23 @@ const rules: KarabinerRules[] = [
     // o = "Open" applications
     o: {
       1: app("1Password"),
-      g: app("Google Chrome"),
-      c: app("Notion Calendar"),
-      v: app("Visual Studio Code"),
-      d: app("Discord"),
-      s: app("Slack"),
-      e: app("Superhuman"),
-      n: app("Notion"),
-      t: app("Warp"),
-      // Open todo list managed via *H*ypersonic
-      h: open(
-        "notion://www.notion.so/stellatehq/7b33b924746647499d906c55f89d5026"
-      ),
-      z: app("zoom.us"),
-      m: app("Mochi"),
+      a: app("Safari"),
+      b: app("Boop"),
+      c: app("Cursor"),
       f: app("Finder"),
+      g: app("Google Chrome"),
+      m: app("Postman"),
+      p: app("Postico"),
       r: app("Telegram"),
-      // "i"Message
-      i: app("Messages"),
-      p: app("Spotify"),
-      a: app("iA Presenter"),
-      w: open("https://web.whatsapp.com"),
+      s: app("Slack"),
+      t: app("Warp"),
+      v: app("Visual Studio Code"),
+      z: app("zoom.us"),
+  
+      h: open(
+        "https://developer.intacct.com/api/"
+      ),
+      //w: open("https://web.whatsapp.com"),
       l: open(
         "raycast://extensions/stellate/mxstbr-commands/open-mxs-is-shortlink"
       ),
